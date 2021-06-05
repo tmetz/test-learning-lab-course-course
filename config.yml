@@ -1,0 +1,16 @@
+title: Test learning lab course
+description: Testing learning lab
+template:
+  repo: test-learning-lab-course-template
+  name: test-learning-lab-course
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
