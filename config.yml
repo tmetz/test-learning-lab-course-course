@@ -3,6 +3,7 @@ description: Testing learning lab
 template:
   repo: test-learning-lab-course-template
   name: test-learning-lab-course
+  description: Test course for tmetz
 before:
   - type: createIssue
     title: Welcome!
